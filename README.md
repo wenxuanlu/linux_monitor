@@ -19,12 +19,3 @@ This shell script monitors five types of resources and prints out the resource u
 ### Note:
 - Ensure proper permissions to execute the script.
 - The script continuously monitors and prints dangerous processes' resource usage until manually interrupted.
-
-### Example Output:
-```bash
-Dangerous Process Resource Usage:
-CPU Usage:             25%      (Blue)
-Memory Usage:          35%      (Yellow)
-Disk I/O:              80MB     (Green)
-Disk I/O Rate:         150/s    (Green)
-Network Bandwidth:     2000kB/s (Red)
